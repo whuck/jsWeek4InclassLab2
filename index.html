@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Library: JavaScript Camp</title>
+</head>
+
+<body>
+    <div class="container w-75">
+
+
+        <fieldset>
+            <legend>My Schedule</legend>
+
+            <form id="registrationForm">
+
+                <div class="form-group">
+                    <label for="mon">Monday</label><input name="day" id="mon" type="radio" class="form-control" ><br/>
+                    <label for="tue">Tuesday</label><input name="day" id="tue" type="radio" class="form-control"><br/>
+                    <label for="wed">Wednesday</label><input name="day" id="wed" type="radio" class="form-control"><br/>
+                    <label for="thur">Thursday</label><input name="day" id="thur" type="radio" class="form-control"><br/>
+                    <label for="fri">Friday</label><input name="day" id="fri" type="radio" class="form-control"><br/>
+                    <label for="sat">Saturday</label><input name="day" id="sat" type="radio" class="form-control"><br/>
+                    <label for="sun">Sunday</label><input name="day" id="sun" type="radio" class="form-control"><br/>
+                </div>
+            </form>
+        </fieldset>
+
+            <p id="message"></p>
+            <table id="monSchedule" class="schedule" style="display:none">
+                <th>event</th><th>time</th>
+                <tr>
+                    <td>wakeup</td>
+                    <td>0500 - 0600</td>
+                </tr>
+                <tr>
+                    <td>workout</td>
+                    <td>0600 - 0700</td>
+                </tr>
+                <tr>
+                    <td>class</td>
+                    <td>0800 - 1200</td>
+                </tr>
+            </table>
+        <table id="tueSchedule"  class="schedule" style="display:none">
+            <th>event</th><th>time</th>
+            <tr>
+                <td>wakeup</td>
+                <td>0500 - 0600</td>
+            </tr>
+            <tr>
+                <td>workout</td>
+                <td>0600 - 0700</td>
+            </tr>
+            <tr>
+                <td>class</td>
+                <td>1200 - 2200</td>
+            </tr>
+        </table>
+        <table id="wedSchedule"  class="schedule" style="display:none">
+            <th>event</th><th>time</th>
+            <tr>
+                <td>wakeup</td>
+                <td>0500 - 0600</td>
+            </tr>
+            <tr>
+                <td>workout</td>
+                <td>0600 - 0700</td>
+            </tr>
+            <tr>
+                <td>class</td>
+                <td>1200 - 2200</td>
+            </tr>
+        </table>
+        <table id="thurSchedule"  class="schedule" style="display:none">
+            <th>event</th><th>time</th>
+            <tr>
+                <td>wakeup</td>
+                <td>0500 - 0600</td>
+            </tr>
+            <tr>
+                <td>workout</td>
+                <td>0600 - 0700</td>
+            </tr>
+            <tr>
+                <td>class</td>
+                <td>0900 - 1500</td>
+            </tr>
+        </table>
+        <table id="friSchedule"  class="schedule" style="display:none">
+            <th>event</th><th>time</th>
+            <tr>
+                <td>wakeup</td>
+                <td>0500 - 0600</td>
+            </tr>
+            <tr>
+                <td>workout</td>
+                <td>0600 - 0700</td>
+            </tr>
+            <tr>
+                <td>class</td>
+                <td>0900 - 1100</td>
+            </tr>
+        </table>
+        <table id="satSchedule"  class="schedule" style="display:none">
+            <th>event</th><th>time</th>
+            <tr>
+                <td>wakeup</td>
+                <td>1200 - 1300</td>
+            </tr>
+            <tr>
+                <td>be lazy</td>
+                <td>1300 - 2100</td>
+            </tr>
+        </table>
+        <table id="sunSchedule"  class="schedule" style="display:none">
+            <th>event</th><th>time</th>
+            <tr>
+                <td>wakeup</td>
+                <td>1200 - 1300</td>
+            </tr>
+            <tr>
+                <td>do homework</td>
+                <td>1300 - 2300</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="code.js"></script>
+
+</html>
